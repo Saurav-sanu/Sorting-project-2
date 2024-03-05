@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFE4B5; /* Changed background color */
+    margin: 0;
+    padding: 0;
+    background: url(https://media.istockphoto.com/id/1425821264/photo/abstract-sound-wave-web-banner-artificial-intelligence-expressed-by-moving-particles-3d.webp?b=1&s=170667a&w=0&k=20&c=wwlIanP0M2smYP76ijHilb238VN0-Lwe76_iU4zOYPM=);
+    background: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg);
+    background-size: cover;
+}
+
+.container {
+    margin: 20px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 350px;
+}
+
+.bar {
+    width: 50px;
+    margin: 0 2px;
+    background-color: rgb(0,0,0,0.1);
+    /* border: 4px solid navy; */
+    border-radius: 7px;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #FFA500; /* Changed bar color to orange */
+}
+
+#result, #currentArray {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.result-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 2px solid black;
+    width: 600px;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+.result-box .number {
+    font-size: 18px;
+    background-color: #176B87;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#result span, #currentArray span {
+    margin-left: 5px;
+}
+
+.number {
+    font-size: 18px;
+    background-color: #FFA500; /* Changed number box color to orange */
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
